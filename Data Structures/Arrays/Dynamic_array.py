@@ -18,12 +18,12 @@ for j in range(N):
 for i in range(Q):
     x = arr[i][1] 
     y = arr[i][2]
-    if (arr[i][0] == 1):              # checking query type  
-        index = (x^lastAns)%N         # Finding the index of seq to add the value 
+    if (arr[i][0] == 1):              # checking query type.
+        index = (x^lastAns)%N         # Finding the index of seq to add the value. 
         seq[index].append(y)
-    elif(arr[i][0] == 2):             # checking query type
-        index = (x^lastAns)%Number    # Finding the index of seq to search for a value.
-        index1 = y%len(seq[index])    # Finding the index of the value   
-        lastAns = seq[index][index1]  # Assigning Last answer
-        print lastAns                 # Printing LastAns
+    elif(arr[i][0] == 2):             # checking query type.
+        index = (x^lastAns)%Number    # Finding the index of list in seq to search for a value.
+        index1 = y%len(seq[index])    # Finding the index in the list where the value is.   
+        lastAns = seq[index][index1]  # Assigning Last answer with the value.
+        print lastAns                 # Printing LastAns.
     

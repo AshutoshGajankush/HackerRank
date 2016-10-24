@@ -1,5 +1,4 @@
 import sys
-
 arr = []
 # Converting input into array
 for line in sys.stdin:

@@ -1,2 +1,2 @@
-Hacker Rank Solution in building
+Hacker Rank Solution in Progress.
 -Ashutosh Gajankush
